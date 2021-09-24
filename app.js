@@ -15,11 +15,11 @@ let toMsg = null;
 
 client.on('ready', () => {
   console.log(`Iniciado!`);
-  client.user.setActivity(`Fala comigo bb!`, { type: 'LISTENING' });
+  client.user.setActivity(`!zER0`, { type: 'LISTENING' });
 });
 
 client.on('message', msg => {
-  if(msg.author.bot || !msg.guild || msg.content != 'entra ae') return;
+  if(msg.author.bot || !msg.guild || msg.content != '!zER0') return;
     msg.member.voice.channel.join()
       .then(connection => {
         toMsg = connection;

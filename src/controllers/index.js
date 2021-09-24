@@ -1,7 +1,7 @@
 module.exports = {
-    /** Find service implementation */
+    /** Find controller implementation */
     FindCommandController: require('./findCommand'),
-    /** Play controller implementation */
+    /** Rename controller implementation */
     RenameSWordController: require('./renameSimilarWord'),
     /** Play controller implementation */
     PlayController: require('./play'),
